@@ -1,0 +1,181 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #e1b382;
+  font-family: 'B612', sans-serif;
+}
+
+
+#header-nav {
+  background-color: #2d545e;
+  border-radius: 0;
+  border: 0;
+
+   
+}
+
+
+
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Oxygen', sans-serif;
+  color: #e1b382;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: .75;
+  position: relative;
+
+}
+#content-title{
+  color: #66ccff;
+  font-size:2em;
+  margin-top: 10px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+}
+#content-ch{
+  margin: 20px;
+  color:#e1b382;
+}
+
+ #menu-title{
+  color:#2d545e;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: .75;
+  position: relative;
+
+ }
+.container .jumbotron{
+  background-color: #004466
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+  
+}
+#nav-list a {
+  color: #FFFFFF;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #e1b382;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #e1b382;
+    
+}
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 0;
+  }
+  #header-nav{
+    height: 100px;
+  }
+    .navbar-brand h1{
+    font-size: 5vw;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #header-nav{
+    height: 100px;
+  } 
+  .navbar-brand h1{
+    font-size: 5vw;
+  }
+
+
+  .container .jumbotron {
+    
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 0;}
+  
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+  
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 0;  }
+  
+  #header-nav{
+    height: 100px;
+  }
+    .navbar-brand h1{
+    font-size: 5vw;
+  } 
+  
+}
+
+
+@media (min-width: 480px) and (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+   
+  }
+  .navbar-brand h1 { 
+    
+    margin-top:5px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px; 
+    font-size: 2em;
+    text-align: center;
+    text-decoration:none;
+  }
+
+  #collapsable-nav a { 
+    font-size: 1.2em;
+  }
+  }
+  .container .jumbotron {   
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 0;
+  }
+  
+}
+@media (max-width: 479px) {
+  .navbar-brand h1{
+    margin-bottom: 10px;
+  }
+    a{
+      outline: none;
+    }
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
+
+
+
